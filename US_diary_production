@@ -1,0 +1,15 @@
+#Importing Frameworks
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+
+#Loading data sets
+
+dairy_train_df = pd.read_csv('Dairy Products - Quantity Manufactured.csv')
+egg_train_df = pd.read_csv('Egg Production in United States.csv')
+
+
+#Checking the variables
+dairy_train_df.tail(7)
